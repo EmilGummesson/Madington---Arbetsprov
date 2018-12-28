@@ -1,0 +1,13 @@
+SKILLNADER FRÅN UPPGIFTSBESKRIVNING:
+ - Inte riktigt samma utseende som exempel då upplösning och storlek på bilder skiljer sig åt.
+	- Största skillnaden detta gör är att byggnaderna inte syns på mobila versionen, då den alltid är centrerad i x-led.
+ - Enligt beskrivningen skall flygplanet röra sig från mitten till vänster
+	- Ser konstigt ut om den plötsligt börjar i mitten, gjorde därför så att den rör sig från högra till vänstra sidan
+ - CSS:en är mycket begränsad och från vad jag kan se skulle inte SCSS tillföra något, vilket är varför jag inte gjort detta steg.
+
+SAKER JAG HADE GJORT ANNORLUNDA:
+ - Animationer skalas inte till upplösningen, vilket gör att storlek, riktning och hastighet på plan och moln kan se konstig ut i vissa upplösningar
+ - Draw()-funktionerna är för svårläsliga i efterhand. Bättre att skapa funktioner med flera steg för att göra tydligare vad de gör
+
+ANTECKNINGAR:
+ - 
